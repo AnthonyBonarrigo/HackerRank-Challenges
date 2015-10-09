@@ -9,8 +9,7 @@ public class Solution {
         while(currentTest <= numOfTests){
             int number = input.nextInt();
             for (int i = 0; i < number; i++){
-                if(i % 3 == 0 || i % 5 == 0)
-                    sum += i;
+                (i % 3 == 0 || i % 5 == 0) ? sum += i : continue; 
             }
             System.out.println(sum);
             currentTest++;
