@@ -31,8 +31,7 @@ public class DifferenceOfDiagonals {
              sum1 += matrix[i][i];
              sum2 += matrix[i][matrix.length - (i + 1)];
         }
-        //Output difference 
-        int difference = Math.abs(sum1 - sum2);
-        System.out.print(difference);
+        //Output difference
+        System.out.print(Math.abs(sum1 - sum2));
     }
 }
